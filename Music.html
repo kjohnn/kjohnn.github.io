@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<!--基準となるURIの設定-->
+<!--<base href="D:\CommonData\My HomePage\version1.6\Index.html">-->
+<!--<base href="file://localhost/Volumes/WINDATA/CommonData/My HomePage/version1.6/Index.html">-->
+<!--<base href="http://192.168.0.5/~kjohnn/Index.html">-->
+<!--初期情報の設定-->
+<meta charset="UTF-8">
+<!--文書情報の記述-->
+<meta name="author" content="K.John.N">
+<meta name="keywords" content="my keyword">
+<meta name="description" content="my description">
+<!--文書のタイトル（タイトルバーに表示）-->
+<title>The Home Page Of Eagles</title>
+<!--外部スタイルファイルを読み込む-->
+<link rel="stylesheet" href="StyleFile.css">
+<!--外部Java Scriptファイルを読み込む-->
+<script src="JavaScriptFileForMusic.js"></script>
+<!--表示前にJava Scriptを実行する-->
+<script>
+
+    var theNumberOfBand = 6;
+    var bands = new Array( theNumberOfBand );
+
+    var aNameOfBand = new Array( "Eagles", "DoobieBrothers", "LosLonelyBoys", "EricClapton", "BillyJoel", "RollingStones");
+    var aNameOfAlbum = new Array( "Eagles", "Desperado", "On The Border", "One Of These Nights", "Their Greatest Hits 1971-1975", "Hotel Calfornia", "The Long Run",  "Eagles Live",  "Eagles Greatest Hits, Volume 2", "Hell Freezes Over", "1972-1999 Selected Works", "Eagles - The Very Best Of", "Long Road Out of Eden" );
+
+
+
+    var theNumberOfAlbums = new Array( "13", "17", "3", "12", "12", "17");
+
+    var counter =0;
+    initializeBand( theNumberOfBand , aNameOfBand , theNumberOfAlbums );
+
+ /*   for ( var i=0; i<theNumberOfBand ; i++ ) {
+       setInterval( "SetImage( bands[" + i + "].theAlbums, aNameOfBand[" + i  + "], bands[" + i + "].theNumberOfAlbums )", 2000+200*i );
+    }  */
+    setInterval( "SetImage( bands[0].theAlbums, aNameOfBand[0], bands[0].theNumberOfAlbums )", 1300 );
+    setInterval( "SetImage( bands[1].theAlbums, aNameOfBand[1], bands[1].theNumberOfAlbums )", 1700 );
+
+</script>
+
+
+</head>
+
+<body>
+
+<p>
+私が好きなバンドの紹介をします。
+</p>
+
+<p>
+<img src="Eagles/Eagles-1.jpg" id="Eagles" name="Eagles" width="150" height="150">
+</p>
+
+<p>
+<img src="DoobieBrothers/DoobieBrothers-1.jpg" id="DoobieBrothers" name="DoobieBrothers" width="150" height="150">
+</p>
+
+
+<p>
+<img src="LosLonelyBoys/LosLonelyBoys-1.jpg" id="LosLonelyBoys" name="LosLonelyBoys" width="150" height="150">
+</p>
+
+<p>
+<img src="EricClapton/EricClapton-1.jpg" id="EricClapton" name="EricClapton" width="150" height="150">
+</p>
+
+<p>
+<img src="BillyJoel/BillyJoel-1.jpg" id="BillyJoel" name="BillyJoel" width="150" height="150">
+</p>
+
+<p>
+<img src="RollingStones/RollingStones-1.jpg" id="RollingStones" name="RollingStones" width="150" height="150">
+</p>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
