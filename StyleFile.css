@@ -1,0 +1,78 @@
+/* bodyタグの書式 */
+body        { background-color:#000022;			
+				width:100%;
+				height:100%;
+	    		margin:0;
+    			padding:0px;
+			/*	overflow:hidden; */
+				border: 0px;
+				border-spacing: 0;
+            font-size: medium;
+			   }
+.scroll     {
+            overflow:scroll;
+            }
+.fixedAspectRatio {
+               width:35vw;
+               height:auto;
+            }
+/* 見出しタグの書式 */
+h1, h2, h3  {      font-family: "Times", serif;  
+                         color: white;
+            }
+/* パラグラフタグの書式 */
+p           {      font-family:  "Times", serif;
+                         color: aqua;
+                   text-indent:1em;
+                        /*margin.right:20px; */
+            }
+/* アンカー要素の書式 */
+a           {       font-family:  "Times", serif; 
+                         color: white;
+                text-decoration: none;
+}
+/* 強い重要性要素の書式 */
+strong      {      font-family:  "Times", serif; 
+                         color: white;
+               text-decoration: none;
+            }
+/* リスト要素の書式 */
+ul, ol      {      font-family:  "Times", serif; 
+                         color:white;
+               text-decoration: none;
+            }
+li          {      font-family:  "Times", serif; 
+                         color:aqua;
+               text-decoration: none;
+            }
+/* 用語説明グループ（term-description groups）のリストを表す要素の書式 */
+dl, dt      {      font-family:  "Times", serif; 
+                         color: white;
+               text-decoration: none;
+            }
+dd          {      font-family:  "Times", serif; 
+                         color:aqua;
+               text-decoration: none;
+            }        
+/* imgタグの書式*/
+img         {           margin:20px;
+                         float:right;
+            }
+/* キャプションが付けられる図要素の書式 */
+figure      {           margin:20px;
+							float:right;
+            }
+/* 図のタイトルの書式 */    
+figcaption  {                           
+                    font-family:  "Times", serif; 
+                    color:  white;
+                    text-align:center;
+            } 
+ /* アンカーテキストの色*/           
+a:link      {            color: #1a73e8; }	    /* アンカーテキストの色 */
+a:visited   {            color: lightgreen; }   /* 訪問済みの色 */
+a:hover     {            color: lightsalmon; }  /* マウスホバー時の色 */
+a:active    {            color: red; }          /* クリック時の色 */
+
+
+
