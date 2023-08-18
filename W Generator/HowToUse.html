@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<!--初期情報の設定-->
+	<meta charset="UTF-8">
+	<!--文書情報の記述-->
+	<meta name="author" content="K.John.N">
+	<meta name="keywords" content="my keyword">
+	<meta name="description" content="my description">
+	<!--文書のタイトル（タイトルバーに表示）-->
+	<!-- <title>K.John.N</title> -->
+	<!--外部スタイルファイルを読み込む-->
+	<link rel="stylesheet" href="../StyleFile.css">
+	<style>
+		body{
+			margin:10px;
+		}
+	  </style>
+	<!--外部Java Scriptファイルを読み込む-->
+	<!--<script src="JavaScriptFile.js"></script>-->
+</head>
+
+<body class="scroll">
+
+	<h2>How to Use</h2>
+	<h3 id="summary">Summary</h3>
+	<p>Launching the app will cause the main screen to appear shown in the figure1.
+	It has three modes which is Frequency, Note and Chord. In Frequency mode, you can output wave at frequency on the frequency 
+	display with the wave form which can be selected by the wave button. In Note mode, you can output wave at note on the note display
+	with the wave form which can be selected by the wave button. In chord mode, you can output wave with base note on the note display
+	and chord type on the chord type display with the wave form which can be selected by the wave button.</p>
+
+	<figure>
+		<img class="fixedAspectRatio" src="WGen8.png" width="310.5" height="552" alt="main screen image"></image>
+		<figcaption>Figure1. Main Screen</figcaption>
+	</figure>
+	
+	<h3 id="output">Output</h3>
+	<p>You can output and stop waves tapping output button. If the wave form on the wave button and the mode name on the mode button is not lighted, you cannot output. </p>
+
+	<h3 d="howToChange">How to change frequencies, notes, chords, waves and modes</h3>
+
+	<dl>
+		<dt>Frequencies</dt>
+		<dd>Tap frequency numbers to increase frequency.</dd>
+		<dd>Swiping up and down frequency numbers will increase and decrease frequency respectively.</dd>
+
+		<dt>Notes</dt>
+		<dd>Tap note names to change notes forwards.</dd>
+		<dd>Swiping up and down note names will change notes forwards or backwards respectively.</dd>
+
+		<dt>Chords</dt>
+		<dd>Tap note names to change root notes. Swiping up and down note names can change root notes forwards and
+			backwards respectively.</dd>
+		<dd>Tap chord types to change chord types forwards. Swiping up and down chord types can change chord types
+			forwards and backwards respectively.</dd>
+
+		<dt>Gain</dt>
+		<dd>Tap gain numbers to increase gain.</dd>
+		<dd>Swiping up and down gain numbers will increase and decrease gain respectively.</dd>
+
+		<dt>Waves</dt>
+		<dd>Tap wave buttons with wave forms to change waves.</dd>
+		<dd>No buttons to select cannot output.</dd>
+
+		<dt>Modes</dt>
+		<dd>Tap mode buttons to change modes.</dd>
+		<dd>Tap mode buttons to change modes. No modes to select cannot output.</dd>
+	</dl>
+
+</body>
+
+</html>

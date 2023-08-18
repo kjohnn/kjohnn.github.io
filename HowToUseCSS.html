@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<!--初期情報の設定-->
+	<meta charset="UTF-8">
+	<!--文書情報の記述-->
+	<meta name="author" content="K.John.N">
+	<meta name="keywords" content="my keyword">
+	<meta name="description" content="my description">
+	<!--文書のタイトル（タイトルバーに表示）-->
+	<!-- <title>K.John.N</title> -->
+	<!--外部スタイルファイルを読み込む-->
+	<link rel="stylesheet" href="StyleFile.css">
+	<!--外部Java Scriptファイルを読み込む-->
+	<script src="JavaScriptFileForList.js"></script>
+	<!--表示前にJava Scriptを実行する-->
+	<script>
+		/*  */
+		// function func1(e) {
+      	// 	e.classList.toggle("active");
+    	// }
+		(window.parent.parent).document.title = 'References to Tips for Building Websites Using CSS';
+		/* LoadEventが生じたら、関数setListenersを呼び出すように設定 */
+		addListener(window, "load", setListeners, false);
+	</script>
+	<style>
+		body{
+			margin:10px;
+			cursor:default;
+		}
+		.parent li{
+      		display: none;
+    	}
+    	.active {
+      		background-color: black;
+    	}
+    	.active li {
+      		display: block;
+    	}
+	  </style>
+</head>
+
+<body class="scroll">
+
+	<h2>References to Tips for Building Websites Using CSS</h2>
+	<p>Links for using CSS I referenced are as follows.</p>
+
+	<ul>
+		<li class="parent" id="ReferencesToCSS">References to Cascading Style Sheets
+			<ol>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">CSS: Cascading Style Sheets</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="IDAndClass">ID And Class
+			<ol>
+				<li><a href="https://blog.codecamp.jp/id_class" target="_blank" rel="noopener noreferrer">idとclassをわかりやすく説明！ゼロから始めるHTML/CSS講座Vol13</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="ScrollBar">Scroll Bar
+			<ol>
+				<li><a href="https://style.potepan.com/articles/21093.html" target="_blank" rel="noopener noreferrer">HTMLでスクロールバーの表示・非表示のやり方は？サンプルコードで解説！</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="ViewportUnits">Viewport Units
+			<ol>
+				<li><a href="https://techacademy.jp/magazine/38188" target="_blank" rel="noopener noreferrer">CSSで要素の高さを指定する100vhと100%の違いを現役エンジニアが解説【初心者向け】</a></li>
+				<li><a href="https://dev.classmethod.jp/articles/css-length-viewport/" target="_blank" rel="noopener noreferrer">CSS には vw, vh, vmin, vmax という単位がある</a></li>
+				<li><a href="http://www.htmq.com/tips/viewport_uints.shtml" target="_blank" rel="noopener noreferrer">CSSのvw、vh、vmin、vmaxを使ってビューポートの幅や高さに対する割合で要素のサイズを指定する</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="MarginAndPadding">Margin and Padding
+			<ol>
+				<li><a href="https://blog.codecamp.jp/margin_padding" target="_blank" rel="noopener noreferrer">marginとpaddingとは？基礎から解説！ゼロから始めるHTML/CSS講座Vol08</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="FontFamily">Font Family
+			<ol>
+				<li><a href="https://willcloud.jp/knowhow/font-family/" target="_blank" rel="noopener noreferrer">【2021年版】font-familyの正しい指定方法・タイプ別おすすめフォント設定例</a></li>
+				<li><a href="https://developer.mozilla.org/ja/docs/Web/CSS/font-family" target="_blank" rel="noopener noreferrer">font-family</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="DisplayProperty">Display Property
+			<ol>
+				<li><a href="https://www.itra.co.jp/webmedia/what-is-inline-block.html" target="_blank" rel="noopener noreferrer">【display】インラインブロック要素の性質と使い方</a></li>
+				<li><a href="https://developer.mozilla.org/ja/docs/Web/CSS/display" target="_blank" rel="noopener noreferrer">display</a></li>
+			</ol>
+		</li>
+
+	</ul>
+
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<!--初期情報の設定-->
+	<meta charset="UTF-8">
+	<!--文書情報の記述-->
+	<meta name="author" content="K.John.N">
+	<meta name="keywords" content="my keyword">
+	<meta name="description" content="my description">
+	<!--文書のタイトル（タイトルバーに表示）-->
+	<!-- <title>K.John.N</title> -->
+	<!--外部スタイルファイルを読み込む-->
+	<link rel="stylesheet" href="StyleFile.css">
+	<!--外部Java Scriptファイルを読み込む-->
+	<script src="JavaScriptFileForList.js"></script>
+	<!--表示前にJava Scriptを実行する-->
+	<script>
+		/*  */
+		// function func1(e) {
+      	// 	e.classList.toggle("active");
+    	// }
+		(window.parent.parent).document.title = 'References to Swift Programming Tips Using SwiftUI';
+		/* LoadEventが生じたら、関数setListenersを呼び出すように設定 */
+		addListener(window, "load", setListeners, false);
+	</script>
+	<style>
+		body{
+			margin:10px;
+			cursor:default;
+		}
+		.parent li{
+      		display: none;
+    	}
+    	.active {
+      		background-color: black;
+    	}
+    	.active li {
+      		display: block;
+    	}
+	  </style>
+</head>
+
+<body class="scroll">
+
+	<h2>References to Swift Programming Tips Using SwiftUI</h2>
+	<p>Links for swift programming tips using swiftui I referenced are as follows.</p>
+
+	<ul>
+		<li class="parent" id="HideKeyboard">Hide Keyboard
+			<ol>
+				<li><a href="https://thwork.net/2021/11/19/swiftui_keyboard-close_focus-remove/" target="_blank" rel="noopener noreferrer">【SwiftUI】キーボードを閉じる（フォーカスを外す）</a></li>
+				<li><a href="https://qiita.com/Riscait/items/8e76182d8b4c2def0953" target="_blank" rel="noopener noreferrer">SwiftUIでキーボードを下げる（非表示にする）方法</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="LaunchScreen">Launch Screen
+			<ol>
+				<li><a href="https://betterprogramming.pub/launch-screen-with-swiftui-bd2958771f3b" target="_blank" rel="noopener noreferrer">How to Build a Launch Screen With SwiftUI</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="Sheet">Sheet
+			<ol>
+				<li><a href="https://capibara1969.com/2521/" target="_blank" rel="noopener noreferrer">【SwiftUI】シートの使い方（sheet）</a></li>
+				<li><a href="https://stackoverflow.com/questions/63745084/how-can-i-make-a-background-color-with-opacity-on-a-sheet-view" target="_blank" rel="noopener noreferrer">How can I make a background color with opacity on a Sheet view?</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="BindingObservedObjectandEnvironmentObject">Binding, @Observed Object and @EnvironmentObject
+			<ol>
+				<li><a href="https://inon29.hateblo.jp/entry/2020/05/02/134257" target="_blank" rel="noopener noreferrer">【SwiftUI】@BindingとBinding&lt;型&gt;について</a></li>
+				<li><a href="https://qiita.com/MaShunzhe/items/cb45b5607fa586f6c442" target="_blank" rel="noopener noreferrer">変数が変更されたときにSwiftUIのViewがリロードされるようにする</a></li>
+				<li><a href="https://d1v1b.com/swiftui/share_data_over_view" target="_blank" rel="noopener noreferrer">データを複数のViewで共有する</a></li>
+				<li><a href="https://www.fixes.pub/program/193197.html" target="_blank" rel="noopener noreferrer">SwiftUIで@Bindingを@Publishedにリンクする</a></li>
+				<li><a href="https://mogi0506.com/observedobject/" target="_blank" rel="noopener noreferrer">【SwiftUI超入門】@ObservedObjectの使い方</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="CGAffineTransform">CGAffineTransform
+			<ol>
+				<li><a href="https://qiita.com/cyomox/items/bdb5d86b76b522cc6249" target="_blank" rel="noopener noreferrer">CGAffineTransformを知る</a></li>
+				<li><a href="https://capibara1969.com/2798/" target="_blank" rel="noopener noreferrer">【SwiftUI】アフィン変換を使った図形変換（CGAffineTransform）</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="Path">Path
+			<ol>
+				<li><a href="https://qiita.com/imchino/items/5fc2e5a221847f4456a8" target="_blank" rel="noopener noreferrer">この世でいちばんわかりやすいSwiftUIのパス描画</a></li>
+				<li><a href="https://note.com/kaigian/n/ndbbcf82ee3e4" target="_blank" rel="noopener noreferrer">SwiftUIのPath図形表示</a></li>
+				<li><a href="https://ichi.pro/swiftui-dezainrainsutairu-no-strokestyle-218716609238284"　target="_blank" rel="noopener noreferrer">SwiftUIデザインラインスタイルのStrokeStyle</a></li>
+				<li><a href="https://capibara1969.com/2723/" target="_blank" rel="noopener noreferrer">【SwiftUI】Pathを使った図形の描画</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="GeometryReader">GeometryReader
+			<ol>
+				<li><a href="https://blog.personal-factory.com/2019/12/08/how-to-know-coorginate-space-by-geometryreader/" target="_blank" rel="noopener noreferrer">[SwiftUI] GeometryReaderでViewのサイズを知る</a></li>
+				<li><a href="https://www.harubears.com/ja/tech/swiftui/swiftui-geometryreader-globa-local-coordinate/" target="_blank" rel="noopener noreferrer">[SwiftUI]GeometryReaderを活用した、Global座標、Local座標の取得方法と.offsetモディファイヤの変化に伴う座標の変化</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="ChangeLocalizedStringKeyToString">Change LocalizedStringKey to String
+			<ol>
+				<li><a href="https://stackoverflow.com/questions/60841915/how-to-change-localizedstringkey-to-string-in-swiftui" target="_blank" rel="noopener noreferrer">How to change LocalizedStringKey to String in SwiftUI</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="TextField">TextField
+			<ol>
+				<li><a href="https://stackoverflow.com/questions/59104353/textfield-input-not-updating-published-observedobject-in-other-class-swiftui" target="_blank" rel="noopener noreferrer">TextField Input not updating @Published ObservedObject in other class (SwiftUI)</a></li>
+				<li><a href="https://stackoverflow.com/questions/64437384/swiftui-how-to-set-background-color-for-textfield" target="_blank" rel="noopener noreferrer">SwiftUI: How to set background color for textfield</a></li>
+				<li><a href="https://hirauchi-genta.com/swift-swiftui-textfield/" target="_blank" rel="noopener noreferrer">【SwiftUI】TextFiledで入力欄を実装する方法を解説</a></li>
+				<li><a href="https://stackoverflow.com/questions/56646849/textfield-oncommit-is-never-called" target="_blank" rel="noopener noreferrer">TextField onCommit is never called</a></li>
+				<li><a href="https://capibara1969.com/1546/" target="_blank" rel="noopener noreferrer">（アーカイブ）【SwiftUI】TextFieldの使い方</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="ToolBar">ToolBar
+			<ol>
+				<li><a href="https://software.small-desk.com/development/2020/09/29/swiftui-toolbar/" target="_blank" rel="noopener noreferrer">[SwiftUI] toolbar の使い方</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="Label">Label
+			<ol>
+				<li><a href="https://capibara1969.com/3034/" target="_blank" rel="noopener noreferrer">【SwiftUI】 Labelの使い方</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="Button">Button
+			<ol>
+				<li><a href="https://capibara1969.com/1884/" target="_blank" rel="noopener noreferrer">【SwiftUI】Buttonの使い方</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="Locale">Locale
+			<ol>
+				<li><a href="https://capibara1969.com/2120/" target="_blank" rel="noopener noreferrer">【Swift】Localeの使い方</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="SizeAndLocation">Size and Location
+			<ol>
+				<li><a href="https://iphone-tora.sakura.ne.jp/uikit_size.html" target="_blank" rel="noopener noreferrer">サイズ指定</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="ViewsPosition">View's Position
+			<ol>
+				<li><a href="https://smashswift.com/how-to-position-view-related-to-parent-in-swiftui/" target="_blank" rel="noopener noreferrer">How To Position View Related To Parent In SwiftUI</a></li>
+				<li><a href="https://stackoverflow.com/questions/62737434/where-is-the-origin-of-a-view-in-swiftui" target="_blank" rel="noopener noreferrer">Where is the 'Origin' of a View in SwiftUI</a></li>
+			</ol>
+		</li>
+	</ul>
+
+	<dl>
+		<!-- <dt id="HideKeyboard">Hide Keyboard</dt>
+		<dd>The below link describes it easy to understand in English.</dd>
+		<dd><a href="https://thwork.net/2021/11/19/swiftui_keyboard-close_focus-remove/" target="_blank" rel="noopener noreferrer">【SwiftUI】キーボードを閉じる（フォーカスを外す）</a></dd>
+		<dd><a href="https://qiita.com/Riscait/items/8e76182d8b4c2def0953" target="_blank" rel="noopener noreferrer">SwiftUIでキーボードを下げる（非表示にする）方法</a></dd>
+		<dd style="margin-bottom:20px;"><a href="https://stackoverflow.com/questions/56491386/how-to-hide-keyboard-when-using-swiftui" target="_blank" rel="noopener noreferrer">How to hide keyboard when using SwiftUI?</a></dd> -->
+
+		<!-- <dt id="HideKeyboard">Hide Keyboard</dt>
+		<dd class="parent" onclick="func1(this)">Click this and the links that would appear describes it easy to understand in English
+			<ol>
+				<li><a href="https://thwork.net/2021/11/19/swiftui_keyboard-close_focus-remove/" target="_blank" rel="noopener noreferrer">【SwiftUI】キーボードを閉じる（フォーカスを外す）</a></li>
+				<li><a href="https://qiita.com/Riscait/items/8e76182d8b4c2def0953" target="_blank" rel="noopener noreferrer">SwiftUIでキーボードを下げる（非表示にする）方法</a></li>
+			</ol>
+		</dd> -->
+
+		<!-- <dt id="LaunchScreen">Launch Screen</dt>
+		<dd>The below link describes it easy to understand in English</dd>
+		<dd style="margin-bottom:20px;"><a href="https://betterprogramming.pub/launch-screen-with-swiftui-bd2958771f3b" target="_blank" rel="noopener noreferrer">How to Build a Launch Screen With SwiftUI</a></dd> -->
+
+	</dl>
+
+</body>
+
+</html>

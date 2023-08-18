@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!--文書情報の記述-->
+	<meta name="author" content="K.John.N">
+	<meta name="keywords" content="my keyword">
+	<meta name="description" content="my description">
+	<!--文書のタイトル（タイトルバーに表示）-->
+	<!-- <title>誤差円線図Help</title> -->
+	<!--外部スタイルファイルを読み込む-->
+	<link rel="stylesheet" href="../StyleFile.css">
+</head>
+
+<body>
+
+<h3><a name="VT">Instrument Voltage Transformer</a></h3>
+
+<p class="appendix">
+	The voltage transformer is used to measure high voltage on the primary terminals. 
+	Measuring the low voltage on the secondary terminals let you know the primary terminals voltage if the ratio is known.
+
+<!-- 計器用変圧器は，高電圧回路の電圧測定をするために高圧側（一次側）の電圧を低圧側（二次側）の電圧110Vに逓降する装置です。この装置は，コアに一次側と二次側のコイルを巻いて作られ，一次側と二次側は絶縁されています。一次側と二次側の電圧の比は，コイルの巻き数比となります。実際には，誤差があり，その誤差は比誤差ε（%）と位相角θ（分）で表されます。その原因は，一次側と二次側の漏れインピーダンス，励磁電流及び二次側の負担電流です。 -->
+</p>
+<p class="appendix">
+	zero burden error
+<!-- 無負担誤差（二次側を開放した時の誤差）は，以下の式で表されます。 -->
+</p>
+<p class="appendix">
+ε<sub>0</sub> = - Z<sub>1</sub> / Z<sub>0</sub> * Cos( φ<sub>1</sub> - γ ) * 100 [%]
+</p>
+<p class="appendix">
+θ<sub>0</sub> = - Z<sub>1</sub> / Z<sub>0</sub> * Sin( φ<sub>1</sub> - γ ) * 3438 [分]
+</p>
+<p class="appendix">
+	rated burden error
+<!-- 負担誤差（二次側に負担Ze<sup>jφ</sup>を接続した時の誤差）は，以下の式で表されます。 -->
+</p>
+<p class="appendix">
+ε<sub>b</sub> = - Z<sub>12</sub> / Z * Cos( φ<sub>12</sub> - φ ) * 100 [%]
+</p>
+<p class="appendix">
+θ<sub>b</sub> = - Z<sub>12</sub> / Z * Sin( φ<sub>12</sub> - φ ) * 3438 [分]
+</p>
+
+<h3><a name="CircleDiagram">誤差円線図</a></h3>
+<p class="appendix">
+<!-- 計器用変圧器は，電気計測器（電気学会）によると理論どおりの誤差特性を持ちます。 -->
+<p class="appendix">
+<!-- 負担誤差の式は，比誤差をX軸，位相角をY軸にとれば円を表現しています。巻き戻しβを考慮して描いた円が計器用変成器の誤差円線図です。誤差円線図を用いれば，二次端子に任意の負担を接続した場合の誤差を求めることができます。誤差円線図は，無負担誤差と定格負担誤差を基に描かれます。 -->
+</p>
+<p class="appendix">
+	burden error
+<!-- また，使用負担での誤差は，以下の式を用いて無負担誤差と定格負担誤差の測定値から求めることができます。 -->
+</p>
+<p class="appendix">
+ε = ε<sub>0</sub> - R / Z * { ( ε<sub>0</sub> - ε<sub>r</sub> ) * Cos φ + 0.0291 * ( θ<sub>0</sub> - θ<sub>r</sub> ) * Sin φ } [%]
+</p>
+<p class="appendix">
+θ = θ<sub>0</sub> - R / Z * { ( θ<sub>0</sub> - θ<sub>r</sub> ) * Cos φ + 34.38 * ( ε<sub>0</sub> - ε<sub>r</sub> ) * Sin φ } [分]
+</p>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

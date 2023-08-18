@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<!--初期情報の設定-->
+	<meta charset="UTF-8">
+	<!--文書情報の記述-->
+	<meta name="author" content="K.John.N">
+	<meta name="keywords" content="my keyword">
+	<meta name="description" content="my description">
+	<!--文書のタイトル（タイトルバーに表示）-->
+	<!-- <title>K.John.N</title> -->
+	<!--外部スタイルファイルを読み込む-->
+	<link rel="stylesheet" href="StyleFile.css">
+	<!--外部Java Scriptファイルを読み込む-->
+	<script src="JavaScriptFileForList.js"></script>
+	<!--表示前にJava Scriptを実行する-->
+	<script>
+		/*  */
+		// function func1(e) {
+      	// 	e.classList.toggle("active");
+    	// }
+		(window.parent.parent).document.title = 'References to Tips for Building Websites Using HTML';
+		/* LoadEventが生じたら、関数setListenersを呼び出すように設定 */
+		addListener(window, "load", setListeners, false);
+	</script>
+	<style>
+		body{
+			margin:10px;
+			cursor:default;
+		}
+		.parent li{
+      		display: none;
+    	}
+    	.active {
+      		background-color: black;
+    	}
+    	.active li {
+      		display: block;
+    	}
+	  </style>
+</head>
+
+<body class="scroll">
+
+	<h2>References to Tips for Building Websites Using HTML</h2>
+	<p>Links for using HTML I referenced are as follows.</p>
+
+	<ul>
+		<li class="parent" id="ReferencesToHTML">References to Hyper Text Markup Language Tips
+			<ol>
+				<li><a href="https://www.sejuku.net/blog/80705" target="_blank" rel="noopener noreferrer">【HTML入門】styleタグやstyle属性を使って直接CSSを書き込もう！</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">HTML: HyperText Markup Language</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="URL">URL
+			<ol>
+				<li><a href="https://medium-company.com/urlとuriの違い/" target="_blank" rel="noopener noreferrer">URLとURIの違い</a></li>
+				<li><a href="http://lab.agr.hokudai.ac.jp/useful/utile/Path_URL.htm" target="_blank" rel="noopener noreferrer">パス（URL）の指定方法</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="Table">Table
+			<ol>
+				<li><a href="https://code-kitchen.dev/html/table/" target="_blank" rel="noopener noreferrer">HTMLのtable（テーブル）コンプリートガイド</a></li>
+				<li><a href="https://udemy.benesse.co.jp/design/web-design/html-table.html" target="_blank" rel="noopener noreferrer">HTML tableタグを初心者向けに解説&便利な知識５選</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="DescriptionAndOrderedAndUnorderedListElement">Description, Ordered and Unordered List Element
+			<ol>
+				<li><a href="https://ferret-plus.com/5063" target="_blank" rel="noopener noreferrer">HTMLコーダー必見のdl dt ddタグの基礎から応用まで！</a></li>
+				<li><a href="https://anko.education/reference/html/basic/list" target="_blank" rel="noopener noreferrer">箇条書きと説明リスト(ul,ol,dl)</a></li>
+				<li><a href="https://www.w3.org/TR/WCAG20-TECHS/H48.html" target="_blank" rel="noopener noreferrer">H48: Using ol, ul and dl for lists or groups of links</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="AnkerElement">Anker Element
+			<ol>
+				<li><a href="https://d-doors.co.jp/nagoya/blog/web/aタグでリンクを繋げる際に気をつけたい事/" target="_blank" rel="noopener noreferrer">aタグでリンクを繋げる際に気をつけたい事</a></li>
+				<li><a href="https://html-coding.co.jp/annex/dictionary/html/a/" target="_blank" rel="noopener noreferrer">&lt;a&gt;</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="iFrameElement">iFrame Element
+			<ol>
+				<li><a href="https://style.potepan.com/articles/22060.html" target="_blank" rel="noopener noreferrer">HTMLでフレームページを作成してみよう！HTML5からはiframeのみ利用推奨！</a></li>
+				<li><a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element/iframe" target="_blank" rel="noopener noreferrer">&lt;iframe&gt;: インラインフレーム要素</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="ParagraphElementAndLineBreak">Paragraph and Line Break Element
+			<ol>
+				<li><a href="https://www.homepage-tukurikata.com/html/br.html" target="_blank" rel="noopener noreferrer">段落分け&lt;p&gt;タグと改行&lt;br&gt;の違い</a></li>
+				<li><a href="https://www.tohoho-web.com/html/p.htm" target="_blank" rel="noopener noreferrer">&lt;p&gt;</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="SpecialCharacters">Special Characters
+			<ol>
+				<li><a href="https://www.html.am/reference/html-special-characters.cfm" target="_blank" rel="noopener noreferrer">HTML Special Characters</a></li>
+				<li><a href="https://proengineer.internous.co.jp/content/columnfeature/5124" target="_blank" rel="noopener noreferrer">HTMLでソースコードや特殊文字を表示する方法</a></li>
+			</ol>
+		</li>
+
+	</ul>
+
+</body>
+
+</html> 

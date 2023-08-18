@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<!--初期情報の設定-->
+	<meta charset="UTF-8">
+	<!--文書情報の記述-->
+	<meta name="author" content="K.John.N">
+	<meta name="keywords" content="my keyword">
+	<meta name="description" content="my description">
+	<!--文書のタイトル（タイトルバーに表示）-->
+	<title>References to Swift Programming Tips</title>
+	<!--外部スタイルファイルを読み込む-->
+	<link rel="stylesheet" href="StyleFile.css">
+	<!--外部Java Scriptファイルを読み込む-->
+	<script src="JavaScriptFileForList.js"></script>
+	<!--表示前にJava Scriptを実行する-->
+	<script>
+		/*  */
+		// function func1(e) {
+      	// 	e.classList.toggle("active");
+    	// }
+		(window.parent.parent).document.title = 'References to Swift Programming Tips';
+		/* LoadEentが生じたら、関数setListenersを呼び出すように設定 */
+		addListener(window, "load", setListeners, false);
+	</script>
+	<style>
+		body{
+			margin:10px;
+			cursor:default;
+		}
+		.parent li{
+      		display: none;
+    	}
+    	.active {
+      		background-color: black;
+    	}
+    	.active li {
+      		display: block;
+    	}
+	  </style>
+</head>
+
+<body class="scroll">
+
+	<h2>References to Swift Programming Tips</h2>
+	<p>Links for swift programming I referenced are as follows.</p>
+
+	<ul>
+		<li class="parent" id="Loops">Loops
+			<ol>
+				<li><a href="https://qiita.com/funacchi/items/4da8016b2d1e13cec538" target="_blank" rel="noopener noreferrer">【Swift】繰り返し処理（for-in、while、repeat-while）</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="Switch">Switch
+			<ol>
+				<li><a href="https://qiita.com/akatsuki174/items/2720ebc369a6c1d9f629" target="_blank" rel="noopener noreferrer">SwiftにおけるSwitchまとめ</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="onvertCGFloatToString">ConVert CGFloat to String
+			<ol>
+				<li><a href="https://stackoverflow.com/questions/25154087/converting-cgfloat-to-string-in-swift" target="_blank" rel="noopener noreferrer">Converting CGFloat to String in Swift</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="Function">Function
+			<ol>
+				<li><a href="https://qiita.com/chihayafuru/items/f6bb38c4a34d8cf62aa9" target="_blank" rel="noopener noreferrer">Swiftの値型と参照型、値渡しと参照渡し</a></li>
+				<li><a href="https://thinkit.co.jp/article/14301" target="_blank" rel="noopener noreferrer">Swiftの関数の基本的な取り扱い</a></li>
+			</ol>
+		</li>
+		<li class="parent" id="HowToDrawCircle">How to Draw Circle
+			<ol>
+				<li><a href="https://majintools.com/2018/11/02/arc/" target="_blank" rel="noopener noreferrer">Swiftの円と円弧の描き方</a></li>
+			</ol>
+		</li>
+
+	</ul>
+
+</body>
+
+</html>
