@@ -12,9 +12,9 @@
 	<!--文書のタイトル（タイトルバーに表示）-->
 	<!-- <title>K.John.N</title> -->
 	<!--外部スタイルファイルを読み込む-->
-	<link rel="stylesheet" href="StyleFile.css">
+	<link rel="stylesheet" href="../StyleFile.css">
 	<!--外部Java Scriptファイルを読み込む-->
-	<!-- <script src="JavaScriptFile.js"></script> -->
+	<!-- <script src="../JavaScriptFile.js"></script> -->
 	<style>
 		body{
 			margin:10px;
@@ -24,13 +24,54 @@
 
 <body class="scroll">
 
-	<h2></h2>
+	<h2>About Circle Diagram</h2>
 
-	<h3 id="Welcome">Wellcom to my Homepage</h3>
+	<h3 id="summary">Summary</h3>
 	<p>
-		Hi, I'm Keiichiro Nakagawara. Welcome to my Homepage ! I've developed two iphone applications. One is W Generator and the other is Circle Diagram.	
+		Circle Diagram is an easy-to-use app that can show the circle diagram of instrument voltage transformers
+		given their zero burden error and rated burden error.
+		And it enables you to get their error with an arbitrary burden you would connect to their secondary terminals.
+		The error means ratio error and phase angle error of instrument voltage transformers.
+		The zero burden error is one of their errors with the secondary terminals open. 
+		The rated burden error is one of their errors with the secondary terminals connecting to the rated burden. 
+		You can move a pointer within the error circle on the diagram and get the burden and the power factor with the arbitrary burden error.
+		The main screen is shown in the figure 1. It has a circle diagram with ratio error on the x-axis and phase angle error on the y-axis.
+		And it has the zero burden and its error TextFields, the rated burden and its error TextFields on the bottom and the arbitrary burden and its error TextFields on the top.
+		The zero burden and the rated burden and their error are used to calculate the circle.
+		You can get the error with the arbitrary burden and the location of the pointer which means the ratio error and the phase angle error on the diagram.
+		The line, cusor and letter color on the diagram could be changed into the color you would like in the settings Action Sheet which could be shown by tapping the Settings Icon.
+		The line width on the diagram could be changed also in the sheet. 
 	</p>
 
+<figure>
+	<img class="fixedAspectRatio" src="Circle Diagram.png" alt="main screen image"></image>
+	<figcaption>Figure1. Main Screen</figcaption>
+</figure>
+
+	<h3 id="specifications">Specifications</h3>
+	<p>
+	<dl>
+		<dt>Ratio Error:</dt>
+		<dd>-2.00 % to +2.00 %</dd>
+
+		<dt>Phase Angle Error:</dt>
+		<dd>-68.80 minutes to +68.80 minutes</dd>
+
+		<dt>Arbitrary Burden:</dt>
+		<dd>0.01 VA to Rated Burden</dd>
+
+		<dt>Rated Burden:</dt>
+		<dd>0.01 VA to 999.99 VA</dd>
+
+		<dt>Power Factor:</dt>
+		<dd>0.00 to 1.00</dd>
+	</dl>
+	</p>
+
+	<h3 id="versionHistory">Version History</h3>
+	<p>
+		1.0.0　First Release
+	</p>
 
 	<h3 id="contact">Contact Us</h3>
 	<p>
