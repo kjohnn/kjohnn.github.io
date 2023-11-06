@@ -19,6 +19,17 @@ body        { background-color:#000022;
                height:35vh;
                /* text-align: center; */
             }
+.appleStoreBadge {
+               margin:0px;
+               /* width:auto; */
+               /* height:100px; */
+               /* left:20px; */
+               /* top: auto; */
+               /* position: fixed; */
+               float:none;
+               /* clear:both; */
+               display:block;
+            }
 /* 見出しタグの書式 */
 h1, h2, h3  {      font-family: "Times", serif;  
                          color: white;
